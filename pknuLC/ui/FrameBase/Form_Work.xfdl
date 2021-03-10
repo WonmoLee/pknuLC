@@ -2,7 +2,11 @@
 <FDL version="2.1">
   <Form id="Form_Work" width="1280" height="900" titletext="Form_Work">
     <Layouts>
-      <Layout width="1280" height="900" screenid="Desktop_screen"/>
+      <Layout width="1280" height="900" screenid=""/>
+      <Layout name="screen00" width="1280" height="900" screenid=""/>
+      <Layout name="screen00_01" width="1280" height="720" screenid=""/>
+      <Layout name="Desktop_screen1" width="1280" height="900" screenid="Desktop_screen1"/>
+      <Layout name="Desktop_screen" width="1280" height="900" screenid="Desktop_screen"/>
     </Layouts>
   </Form>
 </FDL>

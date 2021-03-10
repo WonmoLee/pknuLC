@@ -643,8 +643,7 @@ last-modified : 2020-03-23
 /* ImageViewer */
 .ImageViewer
 {
-	background : #ffffff;
-	-nexa-border : 1px solid #d5d5d5;
+	background : transparent;
 }
 
 .ImageViewer[status=disabled]
@@ -1997,4 +1996,241 @@ last-modified : 2020-03-23
 .ListView .body .expandbar[userstatus=expand]
 {
 	-nexa-icon : URL('theme://images/btn_expand.png');
-}]]></XCSS>
+}.Edit.edt_Login
+{
+	background : #e8e5d8;
+	-nexa-border : 0px none;
+	border-radius : 4px;
+	color : #292929;
+	font : normal 12px/normal "Malgun Gothic";
+	-nexa-padding : 1px 15px;
+}
+.Edit.edt_Login[status=disabled]
+{
+	background : #e8e5d8;
+	-nexa-border : 0px none;
+	border-radius : 4px;
+	color : #292929;
+	font : normal 12px/normal "Malgun Gothic";
+	-nexa-padding : 1px 15px;
+	opacity : 0.5;
+}
+.Edit.edt_Login[status=mouseover]
+{
+	-nexa-border : 1px solid #3a9771;
+}
+.Edit.edt_Login[status=focused]
+{
+	-nexa-border : 1px solid #3a9771;
+}
+.Edit.edt_Login[status=readonly]
+{
+}
+.Button.btn_Login
+{
+	background : #3a9771;
+	-nexa-border : 0px none;
+	border-radius : 4px;
+	color : #ffffff;
+	font : normal bold 13px/normal "Malgun Gothic";
+}
+.Button.btn_Login[status=disabled]
+{
+	background : #3a9771;
+	-nexa-border : 0px none;
+	border-radius : 4px;
+	color : #ffffff;
+	font : normal bold 13px/normal "Malgun Gothic";
+	opacity : 0.5;
+}
+.Button.btn_Login[status=mouseover]
+{
+	background : #6ac19d;
+	-nexa-border : 0px solid;
+	cursor : pointer;
+}
+.Button.btn_Login[status=focused]
+{
+	background : #6ac19d;
+	-nexa-border : 0px solid;
+}
+.Button.btn_Login[userstatus=pushed]
+{
+	background : #3f8c6d;
+	cursor : pointer;
+}
+.Button.btn_Login[userstatus=selected]
+{
+	background : #3a9771;
+}
+.Edit.edt_Login[userstatus=nulltext]
+{
+	color : #b3b2ad;
+}
+.Static.stt_SignUp
+{
+	color : #999999;
+	font : normal 12px/normal "Malgun Gothic";
+}
+.Button.btn_SignUp
+{
+	background : transparent;
+	-nexa-border : 0px none;
+	color : #3a9771;
+	font : normal 700 12px/normal "Malgun Gothic";
+}
+.Button.btn_SignUp[status=disabled]
+{
+	background : transparent;
+	color : #3a9771;
+	opacity : 0.5;
+	-nexa-border : 0px none;
+}
+.Button.btn_SignUp[status=mouseover]
+{
+	background : transparent;
+	cursor : pointer;
+	-nexa-border : 0px none;
+}
+.Button.btn_SignUp[status=focused]
+{
+	background : transparent;
+	-nexa-border : 1px solid #3a9771;
+}.Button.btn_SignUp[userstatus=pushed]
+{
+	background : transparent;
+	cursor : pointer;
+	-nexa-border : 0px none;
+}
+.Button.btn_SignUp[userstatus=selected]
+{
+	background : transparent;
+	cursor : pointer;
+	-nexa-border : 0px none;
+}
+.Static.stt_Line
+{
+	-nexa-border : 1px solid #999999;
+}
+.Static.stt_Or
+{
+	-nexa-text-align : center;
+	color : #555555;
+	font : bold 12px/normal "Malgun Gothic";
+}
+.Button.btn_Kakao
+{
+	background : #ffe812;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none;
+	-nexa-icon : url('theme://images/img_kakao.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+}
+.Button.btn_Kakao[status=disabled]
+{
+	background : #ffe812;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none;
+	-nexa-icon : url('theme://images/img_kakao.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	opacity : 0.5;
+}
+.Button.btn_Kakao[status=mouseover]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none ;
+	-nexa-icon : url('theme://images/img_kakao.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	cursor : pointer;
+}
+.Button.btn_Kakao[status=focused]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none ;
+	-nexa-icon : url('theme://images/img_kakao.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+}
+.Button.btn_Kakao[userstatus=pushed]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none ;
+	-nexa-icon : url('theme://images/img_kakao.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	cursor : pointer;
+}
+.Button.btn_Google
+{
+	background : #f0f2f4;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none;
+	-nexa-icon : url('theme://images/img_google.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+}
+.Button.btn_Google[status=disabled]
+{
+	background : #f0f2f4;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	-nexa-border : 0px none;
+	-nexa-icon : url('theme://images/img_google.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	opacity : 0.5;
+}
+.Button.btn_Google[status=mouseover]
+{
+	background : #e6e9eb;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	-nexa-icon : url('theme://images/img_google.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	cursor : pointer;
+	-nexa-border : 0px none;
+}
+.Button.btn_Google[status=focused]
+{
+	background : #e6e9eb;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	-nexa-icon : url('theme://images/img_google.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	-nexa-border : 0px none;
+}
+.Button.btn_Google[userstatus=pushed]
+{
+	background : #d7dde0;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	-nexa-icon : url('theme://images/img_google.png');
+	-nexa-icon-position : left;
+	-nexa-text-padding : 0px 0px 0px 5px;
+	border-radius : 4px;
+	cursor : pointer;
+}
+]]></XCSS>

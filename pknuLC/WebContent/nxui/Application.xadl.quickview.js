@@ -1,10 +1,11 @@
 (function()
 {
-    return function()  
-	{
+    return function()
+    {
         this.on_loadAppVariables = function()
         {		
             var obj = null;
+            
 			// global dataobject
 		
             // global dataset
@@ -15,23 +16,23 @@
             
             obj = null;
         };
- 
+        
         // property, event, createMainFrame
         this.on_initApplication = function()
         {
             // properties
-            this.set_id("Application_Desktop");
+            this.set_id("Application");
             this.set_screenid("Desktop_screen");
 
             if (this._is_attach_childframe)
             	return;
-        
+            
             // frame
             var mainframe = this.createMainFrame("mainframe","0","0","1280","900",null,null,this);
             mainframe.set_showtitlebar("true");
             mainframe.set_showstatusbar("true");
-            mainframe.set_titletext("FullFrame");
-            mainframe.on_createBodyFrame = this.mainframe_createBodyFrame;        
+            mainframe.set_titletext("부경대 점심추천 사이트");
+            mainframe.on_createBodyFrame = this.mainframe_createBodyFrame;
             // tray
 
         };
@@ -43,27 +44,27 @@
         
         this.mainframe_createBodyFrame = function()
         {
-            var frame0 = new ChildFrame("WorkFrame",null,null,null,null,null,null,"FrameBase::Form_Work.xfdl",this);
-            frame0.set_showtitlebar("false");
-            frame0.set_showstatusbar("false");
-            this.addChild(frame0.name, frame0);
-            frame0.set_formurl("FrameBase::Form_Work.xfdl");
-
-            this.frame=frame0;
+            var obj = new ChildFrame("QuickViewFrame", null, null, null, null, null, null, "", this);
+            
+            obj.set_showtitlebar("false");
+            obj.set_showstatusbar("false");
+            obj.set_border("0px none");
+			
+            this.addChild(obj.name, obj);
+            obj.set_formurl(nexacro._quickview_formurl);
+            this.frame = obj;
+            
+            obj = null;
         };
         
         this.on_initEvent = function()
         {
-
         };
-        
-        // script Compiler
+		// script Compiler
 
-        this.checkLicense("");
         
         this.loadPreloadList();
 
-        this.loadIncludeScript("Application_Desktop.xadl");
     };
 }
 )();

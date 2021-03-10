@@ -493,8 +493,7 @@ textarea::-webkit-scrollbar { display: none; }
 }
 .ImageViewer
 {
-	background : #ffffff;
-	border : 1px solid #d5d5d5;
+	background : transparent;
 }
 .ImageViewer .imagetext .nexacontentsbox
 {
@@ -971,6 +970,68 @@ textarea::-webkit-scrollbar { display: none; }
 	background : #eaeaea;
 	background : linear-gradient(to top,#eaeaea,#ffffff);
 	border : 1px solid #c2c2c2;
+}
+.Edit.edt_Login
+{
+	background : #e8e5d8;
+	border : 0px none;
+	border-radius : 4px;
+	color : #292929;
+	font : normal 12px/normal "Malgun Gothic";
+}
+.Edit.edt_Login .nexainput
+{
+	padding : 1px 15px;
+}
+.Button.btn_Login
+{
+	background : #3a9771;
+	border : 0px none;
+	border-radius : 4px;
+	color : #ffffff;
+	font : normal bold 13px/normal "Malgun Gothic";
+}
+.Static.stt_SignUp
+{
+	color : #999999;
+	font : normal 12px/normal "Malgun Gothic";
+}
+.Button.btn_SignUp
+{
+	background : transparent;
+	border : 0px none;
+	color : #3a9771;
+	font : normal 700 12px/normal "Malgun Gothic";
+}
+.Static.stt_Line
+{
+	border : 1px solid #999999;
+}
+.Static.stt_Or
+{
+	color : #555555;
+	font : bold 12px/normal "Malgun Gothic";
+}
+.Static.stt_Or .nexacontentsbox
+{
+	text-align : center;
+	background-position-x : center;
+}
+.Button.btn_Kakao
+{
+	background : #ffe812;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+}
+.Button.btn_Google
+{
+	background : #f0f2f4;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
 }
 #nexacontainer .Button[status=mouseover]
 {
@@ -1459,6 +1520,70 @@ textarea::-webkit-scrollbar { display: none; }
 	background : linear-gradient(to top,#e7e7e7,#fefefe);
 	border : 1px solid #a0a0a0;
 }
+#nexacontainer .Edit.edt_Login[status=mouseover]
+{
+	border : 1px solid #3a9771;
+}
+#nexacontainer .Edit.edt_Login[status=focused]
+{
+	border : 1px solid #3a9771;
+}
+#nexacontainer .Button.btn_Login[status=mouseover]
+{
+	background : #6ac19d;
+	border : 0px solid;
+	cursor : pointer;
+}
+#nexacontainer .Button.btn_Login[status=focused]
+{
+	background : #6ac19d;
+	border : 0px solid;
+}
+#nexacontainer .Button.btn_SignUp[status=mouseover]
+{
+	background : transparent;
+	cursor : pointer;
+	border : 0px none;
+}
+#nexacontainer .Button.btn_SignUp[status=focused]
+{
+	background : transparent;
+	border : 1px solid #3a9771;
+}
+#nexacontainer .Button.btn_Kakao[status=mouseover]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+	cursor : pointer;
+}
+#nexacontainer .Button.btn_Kakao[status=focused]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+}
+#nexacontainer .Button.btn_Google[status=mouseover]
+{
+	background : #e6e9eb;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	border-radius : 4px;
+	cursor : pointer;
+	border : 0px none;
+}
+#nexacontainer .Button.btn_Google[status=focused]
+{
+	background : #e6e9eb;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	border-radius : 4px;
+	border : 0px none;
+}
 #nexacontainer .Form[userstatus=contents]
 {
 	background : transparent;
@@ -1673,6 +1798,48 @@ textarea::-webkit-scrollbar { display: none; }
 {
 	background : #fefefe;
 	background : linear-gradient(to top,#fefefe,#e9e9e9);
+}
+#nexacontainer .Button.btn_Login[userstatus=pushed]
+{
+	background : #3f8c6d;
+	cursor : pointer;
+}
+#nexacontainer .Button.btn_Login[userstatus=selected]
+{
+	background : #3a9771;
+}
+#nexacontainer .Edit.edt_Login[userstatus=nulltext]
+{
+	color : #b3b2ad;
+}
+#nexacontainer .Button.btn_SignUp[userstatus=pushed]
+{
+	background : transparent;
+	cursor : pointer;
+	border : 0px none;
+}
+#nexacontainer .Button.btn_SignUp[userstatus=selected]
+{
+	background : transparent;
+	cursor : pointer;
+	border : 0px none;
+}
+#nexacontainer .Button.btn_Kakao[userstatus=pushed]
+{
+	background : #f2db05;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+	cursor : pointer;
+}
+#nexacontainer .Button.btn_Google[userstatus=pushed]
+{
+	background : #d7dde0;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	border-radius : 4px;
+	cursor : pointer;
 }
 #nexacontainer .Form[status=disabled]
 {
@@ -1998,6 +2165,53 @@ textarea::-webkit-scrollbar { display: none; }
 	background : #f5f5f5;
 	border : 1px solid #d9d9d9;
 	opacity : 0.50;
+}
+#nexacontainer .Edit.edt_Login[status=disabled]
+{
+	background : #e8e5d8;
+	border : 0px none;
+	border-radius : 4px;
+	color : #292929;
+	font : normal 12px/normal "Malgun Gothic";
+	opacity : 0.5;
+}
+#nexacontainer .Edit.edt_Login[status=disabled] .nexainput
+{
+	padding : 1px 15px;
+}
+#nexacontainer .Button.btn_Login[status=disabled]
+{
+	background : #3a9771;
+	border : 0px none;
+	border-radius : 4px;
+	color : #ffffff;
+	font : normal bold 13px/normal "Malgun Gothic";
+	opacity : 0.5;
+}
+#nexacontainer .Button.btn_SignUp[status=disabled]
+{
+	background : transparent;
+	color : #3a9771;
+	opacity : 0.5;
+	border : 0px none;
+}
+#nexacontainer .Button.btn_Kakao[status=disabled]
+{
+	background : #ffe812;
+	color : #1e1e1e;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+	opacity : 0.5;
+}
+#nexacontainer .Button.btn_Google[status=disabled]
+{
+	background : #f0f2f4;
+	color : #555555;
+	font : bold 12px "Malgun Gothic";
+	border : 0px none;
+	border-radius : 4px;
+	opacity : 0.5;
 }
 #nexacontainer .CheckBox[status=disabled][userstatus=selected]
 {

@@ -83,7 +83,184 @@
             						"color" : nexacro.ColorObject("#bbbbbb"),
             						"border" : nexacro.BorderObject("1px solid #d9d9d9")
             					}
-            				}
+            				},
+            				"class" :
+            				[
+            					{
+            						"btn_Login" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"border" : nexacro.BorderObject("0px none"),
+            									"color" : nexacro.ColorObject("#ffffff"),
+            									"font" : nexacro.FontObject("normal bold 13px/normal \"Malgun Gothic\"")
+            								},
+            								"disabled" :
+            								{
+            									"border" : nexacro.BorderObject("0px none"),
+            									"color" : nexacro.ColorObject("#ffffff"),
+            									"font" : nexacro.FontObject("normal bold 13px/normal \"Malgun Gothic\"")
+            								},
+            								"mouseover" :
+            								{
+            									"border" : nexacro.BorderObject("0px solid")
+            								},
+            								"focused" :
+            								{
+            									"border" : nexacro.BorderObject("0px solid")
+            								},
+            								"pushed" :
+            								{
+            								},
+            								"selected" :
+            								{
+            								}
+            							}
+            						}
+            					},
+            					{
+            						"btn_SignUp" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"border" : nexacro.BorderObject("0px none"),
+            									"color" : nexacro.ColorObject("#3a9771"),
+            									"font" : nexacro.FontObject("normal 700 12px/normal \"Malgun Gothic\"")
+            								},
+            								"disabled" :
+            								{
+            									"color" : nexacro.ColorObject("#3a9771"),
+            									"border" : nexacro.BorderObject("0px none")
+            								},
+            								"mouseover" :
+            								{
+            									"border" : nexacro.BorderObject("0px none")
+            								},
+            								"focused" :
+            								{
+            									"border" : nexacro.BorderObject("1px solid #3a9771")
+            								},
+            								"pushed" :
+            								{
+            									"border" : nexacro.BorderObject("0px none")
+            								},
+            								"selected" :
+            								{
+            									"border" : nexacro.BorderObject("0px none")
+            								}
+            							}
+            						}
+            					},
+            					{
+            						"btn_Kakao" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"color" : nexacro.ColorObject("#1e1e1e"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_kakao.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"disabled" :
+            								{
+            									"color" : nexacro.ColorObject("#1e1e1e"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_kakao.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"mouseover" :
+            								{
+            									"color" : nexacro.ColorObject("#1e1e1e"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_kakao.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"focused" :
+            								{
+            									"color" : nexacro.ColorObject("#1e1e1e"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_kakao.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"pushed" :
+            								{
+            									"color" : nexacro.ColorObject("#1e1e1e"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_kakao.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								}
+            							}
+            						}
+            					},
+            					{
+            						"btn_Google" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_google.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"disabled" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"border" : nexacro.BorderObject("0px none"),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_google.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								},
+            								"mouseover" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_google.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px"),
+            									"border" : nexacro.BorderObject("0px none")
+            								},
+            								"focused" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_google.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px"),
+            									"border" : nexacro.BorderObject("0px none")
+            								},
+            								"pushed" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px \"Malgun Gothic\""),
+            									"icon" : nexacro.UrlObject("url('theme://images/img_google.png')"),
+            									"iconPosition" : "left",
+            									"textPadding" : nexacro.PaddingObject("0px 0px 0px 5px")
+            								}
+            							}
+            						}
+            					}
+            				]
             			},
             			"FileDownload" :
             			{
@@ -633,7 +810,44 @@
             					{
             						"color" : nexacro.ColorObject("#999999")
             					}
-            				}
+            				},
+            				"class" :
+            				[
+            					{
+            						"edt_Login" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"border" : nexacro.BorderObject("0px none"),
+            									"color" : nexacro.ColorObject("#292929"),
+            									"font" : nexacro.FontObject("normal 12px/normal \"Malgun Gothic\""),
+            									"padding" : nexacro.PaddingObject("1px 15px")
+            								},
+            								"disabled" :
+            								{
+            									"border" : nexacro.BorderObject("0px none"),
+            									"color" : nexacro.ColorObject("#292929"),
+            									"font" : nexacro.FontObject("normal 12px/normal \"Malgun Gothic\""),
+            									"padding" : nexacro.PaddingObject("1px 15px")
+            								},
+            								"mouseover" :
+            								{
+            									"border" : nexacro.BorderObject("1px solid #3a9771")
+            								},
+            								"focused" :
+            								{
+            									"border" : nexacro.BorderObject("1px solid #3a9771")
+            								},
+            								"nulltext" :
+            								{
+            									"color" : nexacro.ColorObject("#b3b2ad")
+            								}
+            							}
+            						}
+            					}
+            				]
             			},
             			"fileuploaditemedit" :
             			{
@@ -1678,10 +1892,6 @@
             			{
             				"self" :
             				{
-            					"enabled" :
-            					{
-            						"border" : nexacro.BorderObject("1px solid #d5d5d5")
-            					},
             					"disabled" :
             					{
             					}
@@ -2825,7 +3035,48 @@
             					{
             						"color" : nexacro.ColorObject("#999999")
             					}
-            				}
+            				},
+            				"class" :
+            				[
+            					{
+            						"stt_SignUp" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"color" : nexacro.ColorObject("#999999"),
+            									"font" : nexacro.FontObject("normal 12px/normal \"Malgun Gothic\"")
+            								}
+            							}
+            						}
+            					},
+            					{
+            						"stt_Line" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"border" : nexacro.BorderObject("1px solid #999999")
+            								}
+            							}
+            						}
+            					},
+            					{
+            						"stt_Or" :
+            						{
+            							"self" :
+            							{
+            								"enabled" :
+            								{
+            									"color" : nexacro.ColorObject("#555555"),
+            									"font" : nexacro.FontObject("bold 12px/normal \"Malgun Gothic\"")
+            								}
+            							}
+            						}
+            					}
+            				]
             			},
             			"StaticControl" :
             			{
@@ -3815,9 +4066,12 @@
         		imgcache[nexacro._getImageLocation("theme://images/btn_WF_Stepitem.png")] = { width:13, height:13 };
         		imgcache[nexacro._getImageLocation("theme://images/btn_WF_Stepitem_S.png")] = { width:13, height:13 };
         		imgcache[nexacro._getImageLocation("theme://images/btn_expand.png")] = { width:9, height:6 };
+        		imgcache[nexacro._getImageLocation("theme://images/img_kakao.png")] = { width:24, height:24 };
+        		imgcache[nexacro._getImageLocation("theme://images/img_google.png")] = { width:24, height:24 };
         		imgcache[nexacro._getImageLocation("theme://images/btn_WF_Popupexpand.png")] = { width:3, height:5 };
         		imgcache[nexacro._getImageLocation("theme://images/btn_WF_Tabextra_S.png")] = { width:8, height:8 };
         		imgcache[nexacro._getImageLocation("theme://images/chk_WF_Popupmenu.png")] = { width:13, height:13 };
+        		imgcache[nexacro._getImageLocation("theme://images/ico_map_03.png")] = { width:58, height:56 };
         		imgcache[nexacro._getImageLocation("theme://images/img_WF_Grdimg.png")] = { width:12, height:14 };
         		imgcache[nexacro._getImageLocation("theme://images/img_WF_Htrackbar.png")] = { width:8, height:5 };
         		imgcache[nexacro._getImageLocation("theme://images/img_WF_Htrackbar_D.png")] = { width:8, height:5 };

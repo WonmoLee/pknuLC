@@ -23,7 +23,63 @@
 
             // Layout Functions
             //-- Default Layout : this
-            obj = new Layout("default","Desktop_screen",1280,900,this,function(p){});
+            obj = new Layout("default","",1280,900,this,
+            	//-- Layout function
+            	function(p)
+            	{
+                var rootobj = p;
+                p = rootobj;
+                p.set_titletext("Form_Work");
+            	}
+            );
+            this.addLayout(obj.name, obj);
+
+            //-- Normal Layout : this
+            obj = new Layout("screen00","",1280,900,this,
+            	//-- Layout function
+            	function(p)
+            	{
+                var rootobj = p;
+                p = rootobj;
+
+            	}
+            );
+            this.addLayout(obj.name, obj);
+
+            //-- Normal Layout : this
+            obj = new Layout("screen00_01","",1280,720,this,
+            	//-- Layout function
+            	function(p)
+            	{
+                var rootobj = p;
+                p = rootobj;
+
+            	}
+            );
+            this.addLayout(obj.name, obj);
+
+            //-- Normal Layout : this
+            obj = new Layout("Desktop_screen1","Desktop_screen1",1280,900,this,
+            	//-- Layout function
+            	function(p)
+            	{
+                var rootobj = p;
+                p = rootobj;
+
+            	}
+            );
+            this.addLayout(obj.name, obj);
+
+            //-- Normal Layout : this
+            obj = new Layout("Desktop_screen","Desktop_screen",1280,900,this,
+            	//-- Layout function
+            	function(p)
+            	{
+                var rootobj = p;
+                p = rootobj;
+
+            	}
+            );
             this.addLayout(obj.name, obj);
             
             // BindItem Information

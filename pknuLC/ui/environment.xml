@@ -6,5 +6,6 @@
     </ScreenDefinition>
     <Variables/>
     <Cookies/>
+    <httpheader/>
   </Environment>
 </ENV>

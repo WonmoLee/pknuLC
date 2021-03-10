@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ADL version="2.0">
+  <Application id="Application" screenid="Desktop_screen">
+    <Layout>
+      <MainFrame id="mainframe" showtitlebar="true" showstatusbar="true" width="1280" height="900" titletext="부경대 점심추천 사이트">
+        <VFrameSet id="VFrameSet">
+          <Frames>
+            <ChildFrame id="LoginFrame" formurl="FRAME::LOGIN/login_form.xfdl" showtitlebar="false" showtitleicon="false" openstatus="maximize"/>
+          </Frames>
+        </VFrameSet>
+      </MainFrame>
+    </Layout>
+  </Application>
+</ADL>
